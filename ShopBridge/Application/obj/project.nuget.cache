@@ -1,9 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "1MuSeK5dHOFnwCErKnyP62KMR+iqRD1VR2gvmE+iJClVIyIpRluKLY8e2J6Wb5EntK/Qbv4cqZXcdgczLvEs1g==",
+  "dgSpecHash": "Dp4rsgJ0/HMvBRZ2CFXVcYpqGkS4/HStD1zJCh3+n+ajfu4vMJG1v4P45vng/P1jhjdRZRYgAL3So5+LkE78TA==",
   "success": true,
   "projectFilePath": "C:\\Users\\jasde\\source\\Repos\\Shopbridge_Base\\ShopBridge\\Application\\Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\jasde\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "C:\\Users\\jasde\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
+    "C:\\Users\\jasde\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
+    "C:\\Users\\jasde\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\jasde\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.0.0\\mediatr.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "C:\\Users\\jasde\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\jasde\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.0\\microsoft.data.sqlite.core.7.0.0.nupkg.sha512",
     "C:\\Users\\jasde\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.0\\microsoft.entityframeworkcore.7.0.0.nupkg.sha512",
     "C:\\Users\\jasde\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.0\\microsoft.entityframeworkcore.abstractions.7.0.0.nupkg.sha512",

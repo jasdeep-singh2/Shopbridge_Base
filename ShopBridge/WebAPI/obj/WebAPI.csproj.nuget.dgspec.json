@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jasde\\source\\Repos\\Shopbridge_Base\\ShopBridge\\WebAPI\\WebAPI.csproj": {}
+    "C:\\Users\\jasde\\Source\\Repos\\Shopbridge_Base\\ShopBridge\\WebAPI\\WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jasde\\source\\Repos\\Shopbridge_Base\\ShopBridge\\Application\\Application.csproj": {
+    "C:\\Users\\jasde\\Source\\Repos\\Shopbridge_Base\\ShopBridge\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jasde\\source\\Repos\\Shopbridge_Base\\ShopBridge\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\jasde\\Source\\Repos\\Shopbridge_Base\\ShopBridge\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\jasde\\source\\Repos\\Shopbridge_Base\\ShopBridge\\Application\\Application.csproj",
+        "projectPath": "C:\\Users\\jasde\\Source\\Repos\\Shopbridge_Base\\ShopBridge\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\jasde\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jasde\\source\\Repos\\Shopbridge_Base\\ShopBridge\\Application\\obj\\",
+        "outputPath": "C:\\Users\\jasde\\Source\\Repos\\Shopbridge_Base\\ShopBridge\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,11 +32,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\jasde\\source\\Repos\\Shopbridge_Base\\ShopBridge\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\jasde\\source\\Repos\\Shopbridge_Base\\ShopBridge\\Domain\\Domain.csproj"
+              "C:\\Users\\jasde\\Source\\Repos\\Shopbridge_Base\\ShopBridge\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\jasde\\Source\\Repos\\Shopbridge_Base\\ShopBridge\\Domain\\Domain.csproj"
               },
-              "C:\\Users\\jasde\\source\\Repos\\Shopbridge_Base\\ShopBridge\\Persistence\\Persistence.csproj": {
-                "projectPath": "C:\\Users\\jasde\\source\\Repos\\Shopbridge_Base\\ShopBridge\\Persistence\\Persistence.csproj"
+              "C:\\Users\\jasde\\Source\\Repos\\Shopbridge_Base\\ShopBridge\\Persistence\\Persistence.csproj": {
+                "projectPath": "C:\\Users\\jasde\\Source\\Repos\\Shopbridge_Base\\ShopBridge\\Persistence\\Persistence.csproj"
               }
             }
           }
@@ -54,6 +54,10 @@
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[12.0.0, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.2.2, )"
             },
             "MediatR.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
@@ -80,14 +84,14 @@
         }
       }
     },
-    "C:\\Users\\jasde\\source\\Repos\\Shopbridge_Base\\ShopBridge\\Domain\\Domain.csproj": {
+    "C:\\Users\\jasde\\Source\\Repos\\Shopbridge_Base\\ShopBridge\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jasde\\source\\Repos\\Shopbridge_Base\\ShopBridge\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\jasde\\Source\\Repos\\Shopbridge_Base\\ShopBridge\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\jasde\\source\\Repos\\Shopbridge_Base\\ShopBridge\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\jasde\\Source\\Repos\\Shopbridge_Base\\ShopBridge\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\jasde\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jasde\\source\\Repos\\Shopbridge_Base\\ShopBridge\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\jasde\\Source\\Repos\\Shopbridge_Base\\ShopBridge\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -119,6 +123,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -139,14 +149,14 @@
         }
       }
     },
-    "C:\\Users\\jasde\\source\\Repos\\Shopbridge_Base\\ShopBridge\\Persistence\\Persistence.csproj": {
+    "C:\\Users\\jasde\\Source\\Repos\\Shopbridge_Base\\ShopBridge\\Persistence\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jasde\\source\\Repos\\Shopbridge_Base\\ShopBridge\\Persistence\\Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\jasde\\Source\\Repos\\Shopbridge_Base\\ShopBridge\\Persistence\\Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "C:\\Users\\jasde\\source\\Repos\\Shopbridge_Base\\ShopBridge\\Persistence\\Persistence.csproj",
+        "projectPath": "C:\\Users\\jasde\\Source\\Repos\\Shopbridge_Base\\ShopBridge\\Persistence\\Persistence.csproj",
         "packagesPath": "C:\\Users\\jasde\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jasde\\source\\Repos\\Shopbridge_Base\\ShopBridge\\Persistence\\obj\\",
+        "outputPath": "C:\\Users\\jasde\\Source\\Repos\\Shopbridge_Base\\ShopBridge\\Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -167,8 +177,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\jasde\\source\\Repos\\Shopbridge_Base\\ShopBridge\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\jasde\\source\\Repos\\Shopbridge_Base\\ShopBridge\\Domain\\Domain.csproj"
+              "C:\\Users\\jasde\\Source\\Repos\\Shopbridge_Base\\ShopBridge\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\jasde\\Source\\Repos\\Shopbridge_Base\\ShopBridge\\Domain\\Domain.csproj"
               }
             }
           }
@@ -208,14 +218,14 @@
         }
       }
     },
-    "C:\\Users\\jasde\\source\\Repos\\Shopbridge_Base\\ShopBridge\\WebAPI\\WebAPI.csproj": {
+    "C:\\Users\\jasde\\Source\\Repos\\Shopbridge_Base\\ShopBridge\\WebAPI\\WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jasde\\source\\Repos\\Shopbridge_Base\\ShopBridge\\WebAPI\\WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\jasde\\Source\\Repos\\Shopbridge_Base\\ShopBridge\\WebAPI\\WebAPI.csproj",
         "projectName": "WebAPI",
-        "projectPath": "C:\\Users\\jasde\\source\\Repos\\Shopbridge_Base\\ShopBridge\\WebAPI\\WebAPI.csproj",
+        "projectPath": "C:\\Users\\jasde\\Source\\Repos\\Shopbridge_Base\\ShopBridge\\WebAPI\\WebAPI.csproj",
         "packagesPath": "C:\\Users\\jasde\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jasde\\source\\Repos\\Shopbridge_Base\\ShopBridge\\WebAPI\\obj\\",
+        "outputPath": "C:\\Users\\jasde\\Source\\Repos\\Shopbridge_Base\\ShopBridge\\WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -236,8 +246,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\jasde\\source\\Repos\\Shopbridge_Base\\ShopBridge\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\jasde\\source\\Repos\\Shopbridge_Base\\ShopBridge\\Application\\Application.csproj"
+              "C:\\Users\\jasde\\Source\\Repos\\Shopbridge_Base\\ShopBridge\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\jasde\\Source\\Repos\\Shopbridge_Base\\ShopBridge\\Application\\Application.csproj"
               }
             }
           }
@@ -252,6 +262,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -261,6 +275,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.30.1, )"
             }
           },
           "imports": [

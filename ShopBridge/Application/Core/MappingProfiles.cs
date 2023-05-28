@@ -6,7 +6,7 @@ namespace Application.Core
     public class MappingProfiles : Profile
     {
 
-        MappingProfiles()
+        public MappingProfiles()
         {         
             CreateMap<Product, Product>();
         }

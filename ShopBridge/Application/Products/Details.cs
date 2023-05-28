@@ -1,4 +1,5 @@
-﻿using Domain;
+﻿using Application.Core;
+using Domain;
 using MediatR;
 using Persistence;
 
@@ -6,21 +7,24 @@ namespace Application.Products
 {
     public class Details
     {
-        public class Query: IRequest<Product>
+        public class Query: IRequest<Result<Product>>
         {
             public Guid Id { get; set; }
         }
 
-        public class Handler : IRequestHandler<Query, Product>
+        public class Handler : IRequestHandler<Query, Result<Product>>
         {
             private readonly DataContext _dataContext;
             public Handler(DataContext dataContext)
             {
                 _dataContext = dataContext;
             }
-            public async Task<Product> Handle(Query request, CancellationToken cancellationToken)
+            public async Task<Result<Product>> Handle(Query request, CancellationToken cancellationToken)
             {
-                return await _dataContext.Products.FindAsync(request.Id);
+                var product =  await _dataContext.Products.FindAsync(request.Id);
+                
+                return Result<Product>.Success(product);
+
             }
         }
     }

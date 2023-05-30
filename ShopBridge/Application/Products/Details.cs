@@ -22,7 +22,9 @@ namespace Application.Products
             public async Task<Result<Product>> Handle(Query request, CancellationToken cancellationToken)
             {
                 var product =  await _dataContext.Products.FindAsync(request.Id);
-                
+
+                if (product == null) return null;
+
                 return Result<Product>.Success(product);
 
             }

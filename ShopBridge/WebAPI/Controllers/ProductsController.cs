@@ -20,7 +20,7 @@ namespace WebAPI.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> CreaateProduct(Product product)
+        public async Task<IActionResult> CreateProduct(Product product)
         {
             return HandleResult(await Mediator.Send(new Create.Command { Product = product }));
         }
